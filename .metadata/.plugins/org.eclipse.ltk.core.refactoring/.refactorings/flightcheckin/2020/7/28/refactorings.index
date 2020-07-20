@@ -1,0 +1,5 @@
+1594237848564	Encapsulate field 'id'
+1594237866425	Encapsulate field 'id'
+1594237884013	Encapsulate field 'id'
+1594238277902	Extract constant 'HTTP_LOCALHOST_8080_FLIGHTRESERVATION_RESERVATIONS'
+1594316442070	Extract local variable 'request'

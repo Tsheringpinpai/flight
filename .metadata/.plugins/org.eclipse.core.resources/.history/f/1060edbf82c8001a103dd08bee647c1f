@@ -1,0 +1,23 @@
+package com.tshering.flightreservation.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public class SecurityServiceImpl implements SecurityService {
+	
+	@Autowired
+	UserDetailsService userDetailsService;
+
+	@Override
+	public boolean login(String username, String password) {
+		UserDetails userDetails = userDetailsService.loadUserByUsername(username);
+		
+		UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(userDetails, password);
+		
+		
+		return false;
+	}
+
+}

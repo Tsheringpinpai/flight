@@ -1,0 +1,13 @@
+1594231415106	Inline local variable 'reservation'
+1594232267451	Inline local variable 'updatedReservation'
+1594233379138	Encapsulate field 'checkedIn'
+1594237711586	Copy compilation units
+1594237749053	Copy compilation unit
+1594316836145	Copy file
+1594327385789	Extract local variable 'filePath'
+1594412204577	Extract constant 'USERS_TSHERINGGURUNG_DESKTOP_UDEMY_RESERVATIONS_RESERVATION'
+1594412277061	Extract constant 'ITINERARY_FOR_YOUR_FLIGHT'
+1594412320258	Extract constant 'PLEASE_FIND_YOUR_ITINERARY_ATTACHED'
+1594433121652	Encapsulate field 'name'
+1594433171655	Encapsulate field 'roles'
+1594433202989	Encapsulate field 'users'

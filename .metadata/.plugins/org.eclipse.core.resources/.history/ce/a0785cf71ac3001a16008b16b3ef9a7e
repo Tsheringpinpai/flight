@@ -1,0 +1,5 @@
+package com.tshering.flightreservation.entities;
+
+public class Role {
+
+}

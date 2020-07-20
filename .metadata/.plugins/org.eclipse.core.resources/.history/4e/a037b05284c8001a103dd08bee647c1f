@@ -1,0 +1,5 @@
+package com.tshering.flightreservation.security.config;
+
+public class WebSecurityConfig {
+
+}
